@@ -134,7 +134,7 @@ for(let t = 0; t < polishString.length; ++t){
 	polishStr += polishString[t];
 }
 
-//для коректной работы eval() 
+//для корректной работы eval() 
 for(let t = 0; t <expr.length; ++t){
 	expr = expr.replace("^","**");
 }
